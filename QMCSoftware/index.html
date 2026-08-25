@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Capture the current path starting after "/QMCSoftware"
+    var oldPath = window.location.pathname; 
+    var remainingPath = oldPath.replace(/^\/QMCSoftware/, '');
+    
+    // Construct the new destination URL preserving subdirectories, search queries, and hashes
+    var newURL = "https://qmcsoftware.org/qmcpy" + remainingPath + window.location.search + window.location.hash;
+    
+    // Perform the redirect
+    window.location.replace(newURL);
+  </script>
+</head>
+<body>
+  <p>Moving to <a id="link" href="https://qmcsoftware.org/qmcpy/">qmcsoftware.org/qmcpy/</a>...</p>
+  <script>
+    document.getElementById('link').href = newURL;
+  </script>
+</body>
+</html>
