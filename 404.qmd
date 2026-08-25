@@ -1,0 +1,27 @@
+
+---
+title: "Redirecting..."
+format:
+  html:
+    minimal: true
+---
+
+<script>
+  // Get the current broken path requested by the user
+  var currentPath = window.location.pathname;
+  
+  // Check if it belongs to the old folder structure
+  if (currentPath.startsWith('/QMCSoftware')) {
+    // Strip out the old directory name
+    var remainingPath = currentPath.replace(/^\/QMCSoftware/, '');
+    
+    // Build the correct destination URL while keeping queries and hashes
+    var newURL = "https://qmcsoftware.org/qmcpy" + remainingPath + window.location.search + window.location.hash;
+    
+    // Push the user to the correct page immediately
+    window.location.replace(newURL);
+  } else {
+    // Normal 404 text if they typed a completely unrelated broken link
+    document.write('<h1>Page Not Found</h1><p>Go back to <a href="https://qmcsoftware.org/qmcpy/">QMCPy Home</a>.</p>');
+  }
+</script>
