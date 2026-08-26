@@ -35,6 +35,13 @@
     "text": "What the project provides\nQMCPy is designed around the interacting components of a quasi-Monte Carlo integration problem. The shared interfaces allow developers to add sampling schemes, integrands, and stopping criteria, while practitioners can combine implemented components for applications.\nThe maintained documentation includes installation instructions, a package reference with doctests, mathematical descriptions, and rendered example notebooks."
   },
   {
+    "objectID": "software/qmcpy.html#pypi-activity",
+    "href": "software/qmcpy.html#pypi-activity",
+    "title": "QMCPy",
+    "section": "PyPI activity",
+    "text": "PyPI activity\nQMCPy’s automatically collected download statistics provide a recent measure of package activity.\n\n\n\n922\ndownloads from July 25, 2026 through August 23, 2026 (most recent 30 days)\n\n\n7,058\ndownloads from February 24, 2026 through August 23, 2026 (available daily series)\n\n\nUpdated August 24, 2026. Counts include automated installations, measure recent activity rather than lifetime downloads, and come from the automatically generated QMCPy report."
+  },
+  {
     "objectID": "software/qmcpy.html#start-with-the-maintained-resources",
     "href": "software/qmcpy.html#start-with-the-maintained-resources",
     "title": "QMCPy",
