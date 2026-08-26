@@ -25,6 +25,13 @@ The maintained documentation includes installation instructions, a package
 reference with doctests, mathematical descriptions, and rendered example
 notebooks.
 
+## PyPI activity
+
+QMCPy's automatically collected download statistics provide a recent measure
+of package activity.
+
+{{< include ../data/qmcpy-pypi-stats.md >}}
+
 ## Start with the maintained resources
 
 - [QMCPy documentation](https://qmcsoftware.github.io/QMCSoftware/)

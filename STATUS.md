@@ -55,6 +55,9 @@
   beginning with the Fall 2025 and Fall 2026 MATH 565 offerings.
 - [x] Added durable repository guidance, a multi-machine author workflow, and
   a concise operational handoff for direct Website collaboration.
+- [x] Added recent PyPI download activity to the QMCPy project page, sourced
+  from QMCPy's authoritative automatically generated report and refreshed by
+  the Website publication workflow.
 
 ## Underway
 
@@ -72,6 +75,8 @@ See [notes/NEXT.md](notes/NEXT.md) for the immediate operational handoff.
 ## Decisions and scope boundaries
 
 - Technical documentation stays with each software project.
+- QMCPy's repository remains authoritative for PyPI statistics; the Website
+  publishes a synchronized public summary on the QMCPy project page.
 - The Website owns the broader community QMC software directory; the Software
   section remains limited to projects maintained by the QMCSoftware
   organization.

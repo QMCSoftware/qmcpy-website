@@ -13,6 +13,9 @@
   `main`.
 - Community includes extensible directories for QMC software and university
   courses using QMCSoftware.
+- The QMCPy project page presents recent PyPI activity from a cached summary;
+  the publication workflow refreshes it from QMCPy's authoritative
+  `pypi-stats` branch on every deployment and every Monday.
 - The QMC software directory still exists in `QMCSoftware`. Removing it is a
   separate future task that must use that repository's issue and pull-request
   workflow.

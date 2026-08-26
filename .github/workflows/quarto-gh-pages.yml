@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 8 * * 1"  # Mondays after QMCPy's scheduled statistics update
 
 permissions:
   contents: write
@@ -19,6 +21,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Refresh QMCPy PyPI statistics
+        run: python scripts/update_qmcpy_pypi_stats.py
 
       - name: Render website
         run: quarto render

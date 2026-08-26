@@ -82,8 +82,11 @@ replace project documentation.
   actions.
 - [x] Add clear pathways to learning, updates, and community information.
 - [ ] Replace provisional wording only with collaborator-approved public copy.
-- [ ] Add approved imagery, examples, or impact highlights if they provide
-  clear value.
+- [x] Add recent QMCPy PyPI download activity as the first sourced impact
+  highlight, while keeping the automatically generated repository report
+  authoritative.
+- [ ] Add other approved imagery, examples, or impact highlights if they
+  provide clear value.
 
 ### Phase 5 — Migrate the blog
 

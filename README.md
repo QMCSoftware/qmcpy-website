@@ -27,6 +27,8 @@ quarto render
 
 The `main` branch is the source branch. GitHub Actions renders the site and
 publishes `_site/` to `gh-pages`; generated output is not committed to `main`.
+The same workflow refreshes the public QMCPy PyPI summary from QMCPy's
+authoritative `pypi-stats` branch on every deployment and on a weekly schedule.
 
 ## Collaboration and handoff
 

@@ -221,6 +221,32 @@ body.blogs-page #title-block-header.quarto-title-block.default .quarto-title-met
   margin-top: 0;
 }
 
+.pypi-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.pypi-stat {
+  padding: 1.4rem 1.5rem;
+  border: 1px solid rgba(7, 59, 76, 0.16);
+  border-top: 0.3rem solid #0b6e69;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 0.4rem 1.2rem rgba(7, 59, 76, 0.06);
+}
+
+.pypi-stat h3 {
+  margin: 0 0 0.35rem;
+  color: #075854;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.pypi-stat p:last-child {
+  margin-bottom: 0;
+}
+
 .qmc-software-table-wrap {
   margin: 1.5rem 0 2.5rem;
   overflow-x: auto;
@@ -385,7 +411,8 @@ body.blogs-page #title-block-header.quarto-title-block.default .quarto-title-met
   }
 
   .software-grid,
-  .pathway-grid {
+  .pathway-grid,
+  .pypi-stats-grid {
     grid-template-columns: 1fr;
   }
 
